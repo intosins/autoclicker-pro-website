@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autoclicker Pro - Your go-to solution for easy click automation. Click less, with our autoclicker!">
+    <meta name="keywords" content="auto clicker, click automation, auto mouse, automation software, mouse automation, click software, time-saving, task automation, op auto clicker, fast auto clicker, autoclicker, autoclicker pro">
+    <title>Autoclicker Pro</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-wrapper" id="header">
+            <header>
+                <img src="images/icon.ico" alt="Autoclicker Pro Icon" class="icon2">
+                <p class="p2">Autoclicker Pro</p>
+            </header>
+        </div>
+    
+        <div class="content-wrapper" id="text">
+            <h1>Autoclicker Pro</h1>
+        </div>
+    
+        <div class="content-wrapper" id="text">
+            <p id="development-text">
+                <b class="red">! Our website currently in development stage !</b>
+            </p>
+            <p>
+                Welcome to <b>Autoclicker Pro</b>, the ultimate tool for automating your clicks.
+                Our autoclicker is designed to enhance your efficiency of clicks with its advanced features.
+            </p>
+        </div>
+    
+        <div class="content-wrapper" id="text">
+            <p>
+                Change the <b>clicks per second (CPS)</b>, choose the mouse button for clicking, and personalize hotkeys.
+            </p>
+            <p>
+                With Autoclicker Pro, you can achieve a click rate of approximately <b>~2,000-2,500 clicks per second (CPS)</b>,
+                making it a powerful tool for various applications.
+            </p>
+        </div>
+    
+        <div class="content-wrapper" id="free-and-opensource">
+            <h2>Free and Open Source</h2>
+            <p>
+                Autoclicker Pro is proudly open-sourced, and its entire source code is available on GitHub.
+                We believe in transparency and collaboration, and we welcome contributions from the community.
+                Feel free to explore, modify, and contribute to the development of Autoclicker Pro!
+            </p>
+            <button class="button" type="button view" onclick="viewOnGithub()">
+                <span class="text">View on Github<img src="images/github.png" alt="Github Logo" class="icon" style="width: 25px; height: 25px;"></span>
+            </button>
+        </div>
+    
+        <div class="screenshots" id="screenshots">
+            <h2 class="h22">Screenshots</h2>
+            <ul id="screenshots-container">
+                <input type="checkbox" id="zoom">
+                <label for="zoom">
+                    <li><img src="images/dark.png" alt="Screenshot" class="icon3 zoom-image" style="width: 100%; max-width: 500px; height: auto;"></li>
+                </label>
+                <input type="checkbox" id="zoom2">
+                <label for="zoom2">
+                    <li><img src="images/light.png" alt="Screenshot" class="icon3 zoom-image" style="width: 100%; max-width: 500px; height: auto;"></li>
+                </label>
+            </ul>
+        </div>
+    
+        <div class="content-wrapper" id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Change clicks per second (CPS)</li>
+                <li>Select the mouse button for clicking</li>
+                <li>Options for single, double, triple, or quadruple clicking</li>
+                <li>Personalize hotkeys for seamless control</li>
+                <li>Effortless autoclicker remains active even when the app is in the background</li>
+                <li>Auto-saving settings</li>
+                <li>Free and open source</li>
+                <li>Sleek and intuitive user interface</li>
+                <li>Modern interface</li>
+                <li>Optimized for low CPU usage</li>
+                <li>Lightweight</li>
+                <li>No advertisements or malicious softwares</li>
+                <li>Guaranteed virus-free</li>
+            </ul>
+        </div>
+    
+        <div class="content-wrapper" id="why-choose-us">
+            <h2>Why you should choose our autoclicker?</h2>
+            <button class="button" onclick="toggleChooseUs()">
+                <span class="text" id="show-choose-us-button-text">Find Out Now</span>
+            </button>
+            <ul id="choose-us-list" style="display: none;">
+                <li>We're 35x times faster than <a href="https://www.opautoclicker.com/" target="_blank">OP Autoclicker</a></li>
+                <li>Modern design, streamlined for simplicity</li>
+                <li>We got single, double, triple, quadruple clicks</li>
+                <li>Effortless operation with personalized hotkeys</li>
+                <li>Autoclicking that never rests, even in the background</li>
+                <li>Customization</li>
+            </ul>
+        </div>
+    
+        <div class="content-wrapper" id="versions">
+            <h2>Versions</h2>
+            <button class="button" onclick="toggleVersions()">
+                <span class="text" id="view-versions-button-text">View Versions</span>
+            </button>
+            <ul id="versions-list" style="display: none;">
+                <h2>Versions before 1.0 are Dev/Beta Builds</h2>
+    
+                <h2>Version 1.0</h2>
+                <li>Fixed bugs</li>
+                <li>New user friendly interface</li>
+                <li>Now application can be resized</li>
+    
+                <h2>Version 1.1</h2>
+                <li>Added autosaving</li>
+                <li>Added option "ESC to stop autoclicking"</li>
+                <li>Added option "Show autoclicker over all other windows" (topmost)</li>
+                <li>Renamed configuration file "settings.json" to "config.json"</li>
+    
+                <h2>Version 1.2</h2>
+                <li>Fixed some functions and bugs</li>
+                <li>Added more autosaving to elements such as buttons to make autosaving better</li>
+                <li>Added option "Show autoclicker over all other windows" (topmost)</li>
+    
+                <h2>Version 1.3</h2>
+                <li>Fixed bugs</li>
+                <li>Added option "Save window height and width on exit"</li>
+    
+                <h2>Version 1.4</h2>
+                <li>Fixed bugs</li>
+                <li>Added clicking sounds</li>
+                <li>Added option "Toggle clicking sounds"</li>
+    
+                <h2>Version 1.5</h2>
+                <li>Added themes (dark/light)</li>
+
+                <h2>Version 1.6 (Latest)</h2>
+                <li>Fixed bugs</li>
+                <li>Added option "Hide text labels at right of autoclicker"</li>
+            </ul>
+        </div>
+    
+        <div class="content-wrapper" id="download">
+            <h2>Download</h2>
+            <p>Click the download button below to download Autoclicker Pro.</p>
+            <p>Autoclicker Pro currently available only on Windows.</p>
+            <p>Compatible with Windows 8.1, Windows 10 and Windows 11.</p>
+
+            <button class="button" type="button download" onclick="downloadWindows()">
+                <span class="text">Download for Windows<img src="images/windows.png" alt="Windows Logo" class="icon" style="width: 25px; height: 25px;"></span>
+            </button>
+        </div>
+        <div class="content-wrapper" id="information">
+            <p>
+                <a href="privacypolicy.html">Privacy Policy</a> , <a href="https://proautoclick.com">Main Page</a> , <a href="faq.html">FAQ</a>
+            </p>
+        </div>
+        <div class="copyright" id="copyright">
+            <p>&copy; 2023 proautoclick.com. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="js/mobilealert.js"></script>
+    <script>
+        function viewOnGithub() {
+            window.location.href = "https://github.com/intosins/autoclicker-pro";
+        }
+        function downloadWindows() {
+            window.location.href = "https://proautoclick.com/Autoclicker_Pro_v1.6.zip";
+        }
+        function toggleVersions() {
+            var versionList = document.getElementById("versions-list");
+            var viewButtonText = document.getElementById("view-versions-button-text");
+            versionList.classList.toggle("active");
+    
+            if (versionList.classList.contains("active")) {
+                versionList.style.display = "block";
+                viewButtonText.textContent = "Hide";
+            } else {
+                versionList.style.display = "none";
+                viewButtonText.textContent = "View Versions";
+            }
+        }
+        function toggleChooseUs() {
+            var chooseUsList = document.getElementById("choose-us-list");
+            var showButtonText = document.getElementById("show-choose-us-button-text");
+            chooseUsList.classList.toggle("active");
+
+            if (chooseUsList.classList.contains("active")) {
+                chooseUsList.style.display = "block";
+                showButtonText.textContent = "Hide";
+            } else {
+                chooseUsList.style.display = "none";
+                showButtonText.textContent = "Find Out Now";
+            }
+        }
+    </script>
+</body>
+</html>
