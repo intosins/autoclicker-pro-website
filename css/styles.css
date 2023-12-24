@@ -41,6 +41,20 @@ header {
     padding: 5px;
 }
 
+#videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#videos video {
+    display: block;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1), 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
 #google_translate_element {
     margin-left: auto;
     margin-top: -50px;
@@ -63,6 +77,13 @@ h1 {
 .h22 {
     text-align: center;
     color: #fff;
+}
+
+.h222 {
+    text-align: center;
+    display: flex;
+    color: #fff;
+    margin-bottom: 0;
 }
 
 .red {
